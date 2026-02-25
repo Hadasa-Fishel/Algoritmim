@@ -148,7 +148,10 @@ static int Question4(int[] arr, int X)
 
 #region Question5
 //מצורף בקובץ
-
+static int Question5(int T, int S, int N)
+{
+    return (Math.max(N - T + 1, N - S + 1))
+}
 
 #endregion
 
